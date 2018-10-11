@@ -1,0 +1,89 @@
+<div class="animated fadeInLeft">
+    <div id="text-editor-scripts">
+    </div>
+
+    <div class="add-form">
+        <h3 id="main-title-post">NEW PUBLICATION</h3>
+        <div>
+            <form id="add-form">
+                <div class="form-item">
+                    <label for="author">Author: </label>
+                    <input class="float-right" name="author" type="text" value={{data.author}}>
+                    <br>
+                </div>
+                <br>
+                <div class="form-item">
+                    <label for="section">Section: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="section" id="main-select" class="select">
+                        {{#each static.sections}}
+                        <option value={{this}}>{{this}}</option>
+                        {{/each}}
+                    </select>
+                    <br><br>
+                    <label for="section">Subsection: </label>&nbsp;&nbsp;&nbsp;
+                    {{#each static.subsections}} {{#if this.isActive}}
+                    <select name="subsection" id={{this.section}} class="select sub opened">
+                        {{#each this.names}}
+                        <option value={{this}}>{{this}}</option>
+                        {{/each}}
+                    </select>
+                    {{/if}} {{#unless this.isActive}}
+                    <select name="subsection" id={{this.section}} class="select sub closed">
+                        {{#each this.names}}
+                        <option value={{this}}>{{this}}</option>
+                        {{/each}}
+                    </select>
+                    {{/unless}} {{/each}}
+                </div>
+
+                <div class="form-item">
+                    <br>
+                    <label for="title">Title: </label>
+                    <input class="float-right" name="title" type="text" value={{data.title}}>
+                    <br><br>
+                    <label for="subtitle">Subtitle: </label>
+                    <input class="float-right" name="subtitle" type="text" value={{data.subtitle}}>
+                    <br>
+                </div>
+                <div class="form-item">
+                    <br>
+                    <span>Image: </span>
+                    <input name="img" class="hide-file upload-image" style="width: 80%" type="file" value="upload">
+                    <br><br>
+                    <img id="upload-img" src={{data.img}} alt="img" width="98%" height="auto">
+                </div>
+                <div class="form-item">
+                    <label for="video">Video URL: </label>
+                    <input class="float-right" name="video" type="text" value={{data.video}}>
+                    <br><br>
+                </div>
+                <div class="form-item">
+                    <br>
+                    <label for="content">Content: </label>
+                    <br>
+                    <div id="add-editor">
+                        <textarea name="content" id="myEditor" >{{data.content}}</textarea>
+                        <br>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="all-tags">Tags (separаted by a comma, semicolon or empty space): </label>
+                    <br>
+                    <input name="tags" type="text" id="all-tags" value={{data.tagField}}>
+                    <br><br>
+                </div>
+                <div class="form-item">
+                    <a id="save-btn" href="#/add/blog/save">SAVE</a>
+                </div><br>
+            </form>
+        </div>
+
+        <script>
+            $(function () {
+                $('#myEditor').froalaEditor({
+                    toolbarInline: false
+                })
+            })
+        </script>
+    </div>
+</div>

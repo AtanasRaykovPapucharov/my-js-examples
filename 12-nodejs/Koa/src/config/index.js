@@ -1,6 +1,6 @@
 module.exports = {
     development: {
-        db: 'mongodb://localhost/koa-room',
+        db: 'mongodb://admin:1qazxsw2@ds163060.mlab.com:63060/webdjsdatabase' || 'mongodb://localhost/koa-room',
         port: 3333
     },
     production: {

@@ -1,0 +1,31 @@
+#view-post-container {
+    padding: 5px;
+    text-align: center;
+
+    #blog-content {
+        color: rgb(70, 103, 118); //rgb(99, 192, 237);
+        text-align: justify !important;
+    }
+
+    button {
+        background-color: rgb(99, 192, 237);
+        color: whitesmoke;
+    }
+
+    h3.author {
+        color: whitesmoke;
+    }
+
+    img {
+        margin: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 948px) {
+    #view-post-container {
+        iframe.video {
+            
+        }
+    }
+}

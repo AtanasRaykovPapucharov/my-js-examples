@@ -1,0 +1,43 @@
+- var topics = [{'name': 'ТЯЛО & ДУХ', 'link': '/body-spirit'}, {'name': 'МЕДИЦИНА', 'link': '/medicine'}, {'name': 'ИЗКУСТВО', 'link': '/arts'}, {'name': 'НАУКА', 'link': '/science'}, {'name': 'ПРИРОДА', 'link': '/nature'}, {'name': 'ОБЩЕСТВО', 'link': '/society'}, {'name': 'ТЕХНОЛОГИИ', 'link': '/technologies'}, {'name': 'ЕКСТРЕМНО', 'link': '/extreme'}, {'name': 'СПОРТ', 'link': '/sport'}];
+
+link(rel='stylesheet', href='./resources/css/animate.min.css', type='text/css')
+header.animated.fadeIn
+  div.container-flex
+    div.item-flex-1
+      a(href="/")
+        img.logo(src="assets/images/logo.png", alt="LOGO", width="90px", height="auto")
+        img.logo(src="assets/images/icon.png", alt="LOGO", width="36px", height="34px")
+    div.search.item-flex-9
+      div.header-right-up
+        input(type="text", placeholder="търси...")
+        a.search-btn()
+          i.fa.fa-search(aria-hidden="true")
+        span.moto-words Аз съм човек. Аз съм добър. Аз мога всичко.
+    div.sign-in.item-flex-2
+      a.profile(href="/profile") 
+        img(src="./assets/images/options/empty-avatar.png", alt="profile", width='30px', height='30px', title='МОЯТ ПРОФИЛ') 
+      a#bul-btn.opts(href="/") 
+        span &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        img(src="./assets/images/options/wiki-bul.png", alt="БЪЛГАРИЯ", width='30px', height='30px', title='БЪЛГАРИЯ')
+        span &nbsp;&nbsp;&nbsp;
+      a#spain-btn.opts(href="/") 
+        img(src="./assets/images/options/wiki-spain.png", alt="ИСПАНИЯ", width='30px', height='30px', title='ИСПАНИЯ')
+        span &nbsp;&nbsp;&nbsp;
+      a#world-btn.opts(href="/") 
+        img(src="./assets/images/options/map.png", alt="СВЕТЪТ", width='30px', height='30px', title='СВЕТЪТ')
+  nav
+    div
+      .menu-bar-btn
+        span
+        span
+        span
+      |
+      ul.menu-bar.animated
+        li.main-btn
+          a.menu-bar-item(href="/home")
+            i.home.fa.fa-home(aria-hidden="true")
+        each topic in topics
+          li.main-btn
+            a.menu-bar-item(href=topic.link)=topic.name
+          |
+      |

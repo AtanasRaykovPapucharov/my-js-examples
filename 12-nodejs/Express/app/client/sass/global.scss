@@ -1,0 +1,108 @@
+$header-bg-color: rgb(164, 159, 159);
+$nav-text-hover: rgb(199, 199, 199);
+$light-hover: rgb(220, 220, 220);
+// skroller css
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+} // skroller css END
+* span i {
+    color: $nav-text-hover;
+}
+
+a, select {
+    outline: none !important;
+}
+
+body {
+    .notifier {
+        display: none;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        height: 55px;
+        background-color: rgb(216, 95, 95);
+        text-align: center;
+        color: white;
+        padding-top: 25px;
+        font-size: 22px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    img#logo {
+        visibility: hidden;
+        z-index: 999;
+        position: absolute;
+        top: 52px;
+        left: 5px;
+        opacity: 0.8;
+        border: 1px solid transparent;
+        border-radius: 0.9999rem;
+    }
+    hr {
+        border-bottom: 1px solid $light-hover;
+    } // hr.short {
+    //     width: 94%;
+    //     border-top: 2px dotted rgb(161, 176, 182);
+    // }
+    a {
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .container-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-flex-col-rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .item-flex-1 {
+        flex: 1;
+    }
+    .item-flex-2 {
+        flex: 2;
+    }
+    .item-flex-3 {
+        flex: 3;
+    }
+    .item-flex-4 {
+        flex: 4;
+    }
+    .item-flex-5 {
+        flex: 5;
+    }
+    .item-flex-6 {
+        flex: 6;
+    }
+    .item-flex-7 {
+        flex: 7;
+    }
+    .item-flex-8 {
+        flex: 8;
+    }
+    .item-flex-9 {
+        flex: 9;
+    }
+}
+
+@media only screen and (min-width: 948px) {
+    .container-flex,
+    .container-flex-col-rev {
+        flex-direction: row !important;
+    }
+    img#logo {
+        top: 10px !important;
+    }
+}

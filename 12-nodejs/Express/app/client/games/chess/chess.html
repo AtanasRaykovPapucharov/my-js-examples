@@ -1,0 +1,28 @@
+<h1>ШАХ</h1>
+<div id="chess" class="container-flex">
+	<link rel="stylesheet" href="./games/chess/css/chessboard-0.3.0.css">
+	<div class="info item-flex-1">
+		<div>
+			<!-- Opponent Level: -->
+			<select id="search-depth" style="background: white">
+				<option value="1">Novice</option>
+				<option value="2">Amateur</option>
+				<option value="3" selected>Intermediate</option>
+				<option value="4">Advanced</option>
+				<option value="5">Expert</option>
+			</select>
+			<br>
+			<!-- <span>Opponent Move Time: <span id="time"></span></span> -->
+		</div>
+		<!-- <br>Game History: -->
+		<div id="move-history" class="move-history">
+		</div>
+	</div><br>
+	<div class="board-container item-flex-2">
+		<div id="board" class="board"></div>
+	</div>
+
+	<script src="./games/chess/js/chess.js"></script>
+	<script src="./games/chess/js/chessboard-0.3.0.js"></script>
+	<script src="./games/chess/js/script.js"></script>
+</div>

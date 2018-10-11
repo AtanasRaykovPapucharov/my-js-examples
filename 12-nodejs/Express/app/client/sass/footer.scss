@@ -1,0 +1,50 @@
+footer {
+    background-color: rgb(68, 97, 108);
+    background-image: url("../assets/images/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    a {
+        margin-left: 50px;
+    }
+    h3 {
+        text-align: center;
+    }
+    h3.info a, h3.copy {
+        color: whitesmoke;
+        font-weight: bold;
+        text-shadow: -1px 1px rgb(211, 119, 106);
+    }
+    a.wiki img {
+        margin-top: 25px;
+        margin-left: 35px;
+        border: 1px solid transparent;
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        padding-top: 25px;
+        a {
+            margin-left: 0px;
+        }
+        h3.info a {
+            &:hover {
+                // font-size: 22px;
+            }
+        }
+        a.wiki img {
+            margin-top: 20px;
+            margin-left: 39px;
+        }
+        a.world img {
+            margin-top: 25px;
+        }
+        a.youtube {
+            margin-left: -30% !important;
+        }
+        h3 {
+            text-align: left !important;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<div class="single-object">
+	{{#each data}}
+		<div class="main-item-container">
+			<a class="img-a" href="#/{{this.subsection}}#/{{this._id}}">
+				<img src={{this.img}} alt="img" width="100%" height="220px">
+			</a>
+			<a class="animated fadeInUp" href="#/{{this.subsection}}#/{{this._id}}">
+				<h1 class="animated fadeIn">{{this.title}}</h1>
+			</a>
+		</div>
+	{{/each}}
+</div>

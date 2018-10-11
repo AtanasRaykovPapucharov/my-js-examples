@@ -1,0 +1,855 @@
+{
+    "home": [{
+        "url": "/courses",
+        "tag": "home",
+        "img": "assets/images/options/courses.png",
+        "title": "учи"
+    }, {
+        "url": "/game",
+        "tag": "home",
+        "img": "assets/images/options/play.png",
+        "title": "играй"
+    }, {
+        "url": "/shop",
+        "tag": "home",
+        "img": "assets/images/options/present.png",
+        "title": "подари си"
+    }],
+    "bodySpirit": [{
+            "url": "#/4owe6koto-tqlo",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/humanbody.jpg",
+            "title": "Човешкото тяло"
+        },
+        {
+            "url": "#/hranene",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/superfoods.jpg",
+            "title": "Хранене"
+        },
+        {
+            "url": "#/di6ane",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/breath.jpg",
+            "title": "Дишане"
+        },
+        {
+            "url": "#/joga",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/yoga.jpg",
+            "title": "Йога"
+        },
+        {
+            "url": "#/aerobika",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/aerobics.jpg",
+            "title": "Аеробика"
+        },
+        {
+            "url": "#/bojni-izkustwa",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/wushu.jpg",
+            "title": "Бойни изкуства"
+        },
+        {
+            "url": "#/fitnes",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/fitness.jpg",
+            "title": "Фитнес"
+        },
+        {
+            "url": "#/rejki",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/reiki.jpg",
+            "title": "Рейки"
+        },
+        {
+            "url": "#/masav",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/massage.jpg",
+            "title": "Масаж"
+        },
+        {
+            "url": "#/dao",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/dao.jpg",
+            "title": "Дао"
+        },
+        {
+            "url": "#/wipassana",
+            "tag": "body-spirit",
+            "img": "assets/images/body-spirit/vipassana.jpg",
+            "title": "Випассана"
+        }
+    ],
+    "art": [{
+            "url": "#/muzika",
+            "tag": "arts",
+            "img": "assets/images/art/music.png",
+            "title": "Музика"
+        },
+        {
+            "url": "#/risuwane",
+            "tag": "arts",
+            "img": "assets/images/art/art.jpg",
+            "title": "Рисуване"
+        },
+        {
+            "url": "#/tan3i",
+            "tag": "arts",
+            "img": "assets/images/art/dancing.jpg",
+            "title": "Танци"
+        },
+        {
+            "url": "#/kino",
+            "tag": "arts",
+            "img": "assets/images/art/cinema.jpg",
+            "title": "Кино"
+        },
+        {
+            "url": "#/literatura",
+            "tag": "arts",
+            "img": "assets/images/art/literature.jpg",
+            "title": "Литература"
+        },
+        {
+            "url": "#/anima3iq",
+            "tag": "arts",
+            "img": "assets/images/art/cartoons.jpg",
+            "title": "Анимация"
+        },
+        {
+            "url": "#/komiksi",
+            "tag": "arts",
+            "img": "assets/images/art/comic-books.jpg",
+            "title": "Комикси"
+        },
+        {
+            "url": "#/grafiti",
+            "tag": "arts",
+            "img": "assets/images/art/graffiti.jpg",
+            "title": "Графити"
+        },
+        {
+            "url": "#/teatyr",
+            "tag": "arts",
+            "img": "assets/images/art/theatre.jpg",
+            "title": "Театър"
+        },
+        {
+            "url": "#/fotografiq",
+            "tag": "arts",
+            "img": "assets/images/art/photography.jpg",
+            "title": "Фотография"
+        },
+        {
+            "url": "#/skulptura",
+            "tag": "arts",
+            "img": "assets/images/art/sculptures.jpg",
+            "title": "Скулптура"
+        },
+        {
+            "url": "#/arhitektura",
+            "tag": "arts",
+            "img": "assets/images/art/architecture.jpg",
+            "title": "Архитектура"
+        },
+        {
+            "url": "#/dyrworezba",
+            "tag": "arts",
+            "img": "assets/images/art/woodcarving.jpg",
+            "title": "Дърворезба"
+        },
+        {
+            "url": "#/metal",
+            "tag": "arts",
+            "img": "assets/images/art/metal.jpg",
+            "title": "Изкуство от метал"
+        },
+        {
+            "url": "#/styklo",
+            "tag": "arts",
+            "img": "assets/images/art/stainedglass.jpg",
+            "title": "Изкуство от стъкло"
+        },
+        {
+            "url": "#/idejno-izkustwo",
+            "tag": "arts",
+            "img": "assets/images/art/idea-art.jpg",
+            "title": "Идейно изкуство"
+        }
+    ],
+    "medicine": [{
+            "url": "#/sywremenna",
+            "tag": "medicine",
+            "img": "assets/images/medicine/doctor.jpg",
+            "title": "Съвременна"
+        },
+        {
+            "url": "#/a9rweda",
+            "tag": "medicine",
+            "img": "assets/images/medicine/ayurveda.jpg",
+            "title": "Аюрведа"
+        },
+        {
+            "url": "#/bilki",
+            "tag": "medicine",
+            "img": "assets/images/medicine/herbs.jpg",
+            "title": "Билки"
+        },
+        {
+            "url": "#/akupunktura",
+            "tag": "medicine",
+            "img": "assets/images/medicine/acupuncture.jpg",
+            "title": "Акупунктура"
+        },
+        {
+            "url": "#/6ia3u",
+            "tag": "medicine",
+            "img": "assets/images/medicine/shiatsu.jpg",
+            "title": "Шиацу"
+        },
+        {
+            "url": "#/hiropraktika",
+            "tag": "medicine",
+            "img": "assets/images/medicine/chiropractic.jpg",
+            "title": "Хиропрактика"
+        },
+        {
+            "url": "#/homeopatiq",
+            "tag": "medicine",
+            "img": "assets/images/medicine/homeopathy.jpg",
+            "title": "Хомеопатия"
+        },
+        {
+            "url": "#/refleksoterapiq",
+            "tag": "medicine",
+            "img": "assets/images/medicine/reflexotherapy.jpg",
+            "title": "Рефлексотерапия"
+        },
+        {
+            "url": "#/aromaterapiq",
+            "tag": "medicine",
+            "img": "assets/images/medicine/aromatherapy.jpg",
+            "title": "Ароматерапия"
+        },
+        {
+            "url": "#/tes",
+            "tag": "medicine",
+            "img": "assets/images/medicine/eft.jpg",
+            "title": "ТЕС"
+        },
+        {
+            "url": "#/gyrsanowa-terapiq",
+            "tag": "medicine",
+            "img": "assets/images/medicine/gerson-therapy.jpg",
+            "title": "Гърсанова терапия"
+        }
+    ],
+    "science": [{
+            "url": "#/matematika",
+            "tag": "science",
+            "img": "assets/images/science/math.jpg",
+            "title": "Математика"
+        },
+        {
+            "url": "#/fizika",
+            "tag": "science",
+            "img": "assets/images/science/physics.jpg",
+            "title": "Физика"
+        },
+        {
+            "url": "#/himiq",
+            "tag": "science",
+            "img": "assets/images/science/chemistry.jpg",
+            "title": "Химия"
+        },
+        {
+            "url": "#/biologiq",
+            "tag": "science",
+            "img": "assets/images/science/biology.jpg",
+            "title": "Биология"
+        },
+        {
+            "url": "#/psihologiq",
+            "tag": "science",
+            "img": "assets/images/science/psychology.jpg",
+            "title": "Психология"
+        },
+        {
+            "url": "#/geografiq",
+            "tag": "science",
+            "img": "assets/images/science/geography.jpg",
+            "title": "География"
+        },
+        {
+            "url": "#/geologiq",
+            "tag": "science",
+            "img": "assets/images/science/geology.jpg",
+            "title": "Геология"
+        },
+        {
+            "url": "#/ekologiq",
+            "tag": "science",
+            "img": "assets/images/science/ecology.jpg",
+            "title": "Екология"
+        },
+        {
+            "url": "#/filosofiq",
+            "tag": "science",
+            "img": "assets/images/science/philosophy.jpg",
+            "title": "Философия"
+        },
+        {
+            "url": "#/istoriq",
+            "tag": "science",
+            "img": "assets/images/science/history.jpg",
+            "title": "История"
+        },
+        {
+            "url": "#/arheologiq",
+            "tag": "science",
+            "img": "assets/images/science/archeology.jpg",
+            "title": "Археология"
+        },
+        {
+            "url": "#/kulturologiq",
+            "tag": "science",
+            "img": "assets/images/science/culturology.jpg",
+            "title": "Културология"
+        },
+        {
+            "url": "#/lingwistika",
+            "tag": "science",
+            "img": "assets/images/science/linguistics.jpg",
+            "title": "Лингвистика"
+        },
+        {
+            "url": "#/seksologiq",
+            "tag": "science",
+            "img": "assets/images/science/sexology.jpg",
+            "title": "Сексология"
+        },
+        {
+            "url": "#/so3iologiq",
+            "tag": "science",
+            "img": "assets/images/science/sociology.jpg",
+            "title": "Социология"
+        },
+        {
+            "url": "#/psewdo-nauki",
+            "tag": "science",
+            "img": "assets/images/science/fringescience.jpg",
+            "title": "Псевдо-науки"
+        }
+    ],
+    "tech": [{
+            "url": "#/slyn4ewi",
+            "tag": "technologies",
+            "img": "assets/images/tech/solar.jpg",
+            "title": "Слънчеви"
+        },
+        {
+            "url": "#/wqtyrni",
+            "tag": "technologies",
+            "img": "assets/images/tech/wind.jpg",
+            "title": "Вятърни"
+        },
+        {
+            "url": "#/wodni",
+            "tag": "technologies",
+            "img": "assets/images/tech/water.jpg",
+            "title": "Водни"
+        },
+        {
+            "url": "#/qdreni",
+            "tag": "technologies",
+            "img": "assets/images/tech/nuclear.jpg",
+            "title": "Ядрени"
+        },
+        {
+            "url": "#/elektronni",
+            "tag": "technologies",
+            "img": "assets/images/tech/electronics.jpg",
+            "title": "Електроника"
+        },
+        {
+            "url": "#/medi3inski",
+            "tag": "technologies",
+            "img": "assets/images/tech/medical-physics.jpg",
+            "title": "Медицински"
+        },
+        {
+            "url": "#/robotika",
+            "tag": "technologies",
+            "img": "assets/images/tech/robotics.jpg",
+            "title": "Роботика"
+        },
+        {
+            "url": "#/komp9tyrni",
+            "tag": "technologies",
+            "img": "assets/images/tech/computers.jpg",
+            "title": "Компютърни"
+        },
+        {
+            "url": "#/awtomobilni",
+            "tag": "technologies",
+            "img": "assets/images/tech/automobiles.jpg",
+            "title": "Автомобили"
+        },
+        {
+            "url": "#/mostowe",
+            "tag": "technologies",
+            "img": "assets/images/tech/bridges.jpg",
+            "title": "Мостове"
+        },
+        {
+            "url": "#/podwodni3i",
+            "tag": "technologies",
+            "img": "assets/images/tech/ships.jpg",
+            "title": "Подводници"
+        },
+        {
+            "url": "#/samoleti",
+            "tag": "technologies",
+            "img": "assets/images/tech/planes.jpg",
+            "title": "Самолети"
+        },
+        {
+            "url": "#/kosmi4eski",
+            "tag": "technologies",
+            "img": "assets/images/tech/space.jpg",
+            "title": "Космически"
+        }
+    ],
+    "nature": [{
+            "url": "#/viwotni",
+            "tag": "nature",
+            "img": "assets/images/nature/animals.jpg",
+            "title": "Животни"
+        },
+        {
+            "url": "#/dyrweta",
+            "tag": "nature",
+            "img": "assets/images/nature/trees.jpg",
+            "title": "Дървета"
+        },
+        {
+            "url": "#/trewisti",
+            "tag": "nature",
+            "img": "assets/images/nature/plants.jpg",
+            "title": "Тревисти растения"
+        },
+        {
+            "url": "#/gybi",
+            "tag": "nature",
+            "img": "assets/images/nature/mushrooms.jpg",
+            "title": "Гъби"
+        },
+        {
+            "url": "#/wodopadi",
+            "tag": "nature",
+            "img": "assets/images/nature/waterfalls.jpg",
+            "title": "Водопади"
+        },
+        {
+            "url": "#/ezera",
+            "tag": "nature",
+            "img": "assets/images/nature/lakes.jpg",
+            "title": "Езера"
+        },
+        {
+            "url": "#/reki",
+            "tag": "nature",
+            "img": "assets/images/nature/rivers.jpg",
+            "title": "Реки"
+        },
+        {
+            "url": "#/moreta",
+            "tag": "nature",
+            "img": "assets/images/nature/seas.jpg",
+            "title": "Морета"
+        },
+        {
+            "url": "#/pe8eri",
+            "tag": "nature",
+            "img": "assets/images/nature/caves.jpg",
+            "title": "Пещери"
+        },
+        {
+            "url": "#/skali",
+            "tag": "nature",
+            "img": "assets/images/nature/rocks.jpg",
+            "title": "Скали"
+        },
+        {
+            "url": "#/planini",
+            "tag": "nature",
+            "img": "assets/images/nature/mountains.jpg",
+            "title": "Планини"
+        },
+        {
+            "url": "#/snegowe",
+            "tag": "nature",
+            "img": "assets/images/nature/snows.jpg",
+            "title": "Снегове"
+        },
+        {
+            "url": "#/dyvdowe",
+            "tag": "nature",
+            "img": "assets/images/nature/rains.jpg",
+            "title": "Дъждове"
+        },
+        {
+            "url": "#/tornado",
+            "tag": "nature",
+            "img": "assets/images/nature/tornadoes.jpg",
+            "title": "Торнадо"
+        },
+        {
+            "url": "#/grymotewi3i",
+            "tag": "nature",
+            "img": "assets/images/nature/thunders.jpg",
+            "title": "Гръмотевици"
+        },
+        {
+            "url": "#/dyga",
+            "tag": "nature",
+            "img": "assets/images/nature/rainbows.jpg",
+            "title": "Дъга"
+        },
+        {
+            "url": "#/mygla",
+            "tag": "nature",
+            "img": "assets/images/nature/mists.jpg",
+            "title": "Мъгла"
+        },
+        {
+            "url": "#/obla3i",
+            "tag": "nature",
+            "img": "assets/images/nature/clouds.jpg",
+            "title": "Облаци"
+        },
+        {
+            "url": "#/pustini",
+            "tag": "nature",
+            "img": "assets/images/nature/deserts.jpg",
+            "title": "Пустини"
+        },
+        {
+            "url": "#/ostrowi",
+            "tag": "nature",
+            "img": "assets/images/nature/islands.jpg",
+            "title": "Острови"
+        },
+        {
+            "url": "#/3unami",
+            "tag": "nature",
+            "img": "assets/images/nature/tsunamis.jpg",
+            "title": "Цунами"
+        },
+        {
+            "url": "#/wulkani",
+            "tag": "nature",
+            "img": "assets/images/nature/volcanoes.jpg",
+            "title": "Вулкани"
+        }
+    ],
+    "extreme": [{
+        "url": "#/katerene",
+        "tag": "extreme",
+        "img": "assets/images/extreme/climbing.jpg",
+        "title": "Катерене"
+    }, {
+        "url": "#/gmurkane",
+        "tag": "extreme",
+        "img": "assets/images/extreme/diving.jpg",
+        "title": "Гмуркане"
+    }, {
+        "url": "#/para6utizym",
+        "tag": "extreme",
+        "img": "assets/images/extreme/parachute.jpg",
+        "title": "Парашутизъм"
+    }, {
+        "url": "#/byndvi",
+        "tag": "extreme",
+        "img": "assets/images/extreme/bungee.jpg",
+        "title": "Бънджи"
+    }, {
+        "url": "#/paraplanerizym",
+        "tag": "extreme",
+        "img": "assets/images/extreme/paraplane.jpg",
+        "title": "Парапланеризъм"
+    }, {
+        "url": "#/deltaplanerizym",
+        "tag": "extreme",
+        "img": "assets/images/extreme/deltaplane.jpg",
+        "title": "Делтапланеризъм"
+    }, {
+        "url": "#/koloezdene",
+        "tag": "extreme",
+        "img": "assets/images/extreme/mountain-bike.jpg",
+        "title": "Kолоездене"
+    }, {
+        "url": "#/skejtbord",
+        "tag": "extreme",
+        "img": "assets/images/extreme/skateboarding.jpg",
+        "title": "Скейтборд"
+    }, {
+        "url": "#/snoubord",
+        "tag": "extreme",
+        "img": "assets/images/extreme/snowboarding.jpg",
+        "title": "Сноуборд"
+    }, {
+        "url": "#/ski",
+        "tag": "extreme",
+        "img": "assets/images/extreme/skiing.jpg",
+        "title": "Ски"
+    }, {
+        "url": "#/alpinizym",
+        "tag": "extreme",
+        "img": "assets/images/extreme/mountaineering.jpg",
+        "title": "Алпинизъм"
+    }, {
+        "url": "#/pe8ernq4estwo",
+        "tag": "extreme",
+        "img": "assets/images/extreme/caving.jpg",
+        "title": "Пещернячество"
+    }, {
+        "url": "#/lov",
+        "tag": "extreme",
+        "img": "assets/images/extreme/hunting.jpg",
+        "title": "Лов"
+    }],
+    "society": [{
+        "url": "#/ob8uwane",
+        "tag": "society",
+        "img": "assets/images/society/communication.jpg",
+        "title": "Общуване"
+    }, {
+        "url": "#/pari",
+        "tag": "society",
+        "img": "assets/images/society/money.jpg",
+        "title": "Пари"
+    }, {
+        "url": "#/flirtuwane",
+        "tag": "society",
+        "img": "assets/images/society/flirting.jpg",
+        "title": "Флиртуване"
+    }, {
+        "url": "#/semejstwo",
+        "tag": "society",
+        "img": "assets/images/society/family.jpg",
+        "title": "Семейство"
+    }, {
+        "url": "#/zakoni",
+        "tag": "society",
+        "img": "assets/images/society/low.jpg",
+        "title": "Закони"
+    }, {
+        "url": "#/ikonomika",
+        "tag": "society",
+        "img": "assets/images/society/economics.jpg",
+        "title": "Икономика"
+    }, {
+        "url": "#/banki",
+        "tag": "society",
+        "img": "assets/images/society/bank.jpg",
+        "title": "Банки"
+    }, {
+        "url": "#/poli3iq",
+        "tag": "society",
+        "img": "assets/images/society/police.jpg",
+        "title": "Полиция"
+    }, {
+        "url": "#/stroitelstwo",
+        "tag": "society",
+        "img": "assets/images/society/building.jpg",
+        "title": "Строителство"
+    }, {
+        "url": "#/remonti",
+        "tag": "society",
+        "img": "assets/images/society/repairs.jpg",
+        "title": "Ремонти"
+    }, {
+        "url": "#/wojni",
+        "tag": "society",
+        "img": "assets/images/society/war.jpg",
+        "title": "Войни"
+    }, {
+        "url": "#/bedstwiq",
+        "tag": "society",
+        "img": "assets/images/society/disasters.jpg",
+        "title": "Бедствия"
+    }],
+    "courses": [{
+        "url": "#/basic-front-end-development",
+        "tag": "courses",
+        "img": "assets/images/courses/basic-front-end.jpg",
+        "title": "Basic front-end development"
+    }, {
+        "url": "#/single-page-applications",
+        "tag": "courses",
+        "img": "assets/images/courses/spa.jpg",
+        "title": "Single-page applications"
+    }, {
+        "url": "#/nodejs-applications",
+        "tag": "courses",
+        "img": "assets/images/courses/nodejs.jpg",
+        "title": "NodeJS applications"
+    }],
+    "sport": [{
+        "url": "#/futbol",
+        "tag": "sport",
+        "img": "assets/images/sport/football.jpg",
+        "title": "Футбол"
+    }, {
+        "url": "#/basketbol",
+        "tag": "sport",
+        "img": "assets/images/sport/basketball.jpg",
+        "title": "Баскетбол"
+    }, {
+        "url": "#/wolejbol",
+        "tag": "sport",
+        "img": "assets/images/sport/volleyball.jpg",
+        "title": "Волейбол"
+    }, {
+        "url": "#/tenis",
+        "tag": "sport",
+        "img": "assets/images/sport/tennis.jpg",
+        "title": "Тенис"
+    }, {
+        "url": "#/boks",
+        "tag": "sport",
+        "img": "assets/images/sport/boxing.jpg",
+        "title": "Бокс"
+    }, {
+        "url": "#/mma",
+        "tag": "sport",
+        "img": "assets/images/sport/mma.jpg",
+        "title": "MMA"
+    }, {
+        "url": "#/borba",
+        "tag": "sport",
+        "img": "assets/images/sport/wrestling.jpg",
+        "title": "Борба"
+    }, {
+        "url": "#/rygbi",
+        "tag": "sport",
+        "img": "assets/images/sport/rugby.jpg",
+        "title": "Ръгби"
+    }, {
+        "url": "#/8angi",
+        "tag": "sport",
+        "img": "assets/images/sport/weightlifting.jpg",
+        "title": "Щанги"
+    }, {
+        "url": "#/bqgane",
+        "tag": "sport",
+        "img": "assets/images/sport/running.jpg",
+        "title": "Бягане"
+    }, {
+        "url": "#/pluwane",
+        "tag": "sport",
+        "img": "assets/images/sport/swimming.jpg",
+        "title": "Плуване"
+    }, {
+        "url": "#/gimnastika",
+        "tag": "sport",
+        "img": "assets/images/sport/gymnastics.jpg",
+        "title": "Гимнастика"
+    }, {
+        "url": "#/bejsbol",
+        "tag": "sport",
+        "img": "assets/images/sport/baseball.jpg",
+        "title": "Бейсбол"
+    }, {
+        "url": "#/hokej-na-led",
+        "tag": "sport",
+        "img": "assets/images/sport/icehockey.jpg",
+        "title": "Хокей на лед"
+    }, {
+        "url": "#/fehtowka",
+        "tag": "sport",
+        "img": "assets/images/sport/fencing.jpg",
+        "title": "Фехтовка"
+    }, {
+        "url": "#/drugi",
+        "tag": "sport",
+        "img": "assets/images/sport/others.jpg",
+        "title": "Други спортове"
+    }],
+    "game": [{
+        "url": "#/6ah",
+        "tag": "game",
+        "img": "assets/images/games/chess.jpg",
+        "title": "Шах"
+    },{
+        "url": "#/zmiq",
+        "tag": "game",
+        "img": "assets/images/games/snake.jpg",
+        "title": "Змия"
+    }],
+    "shop": [{
+        "url": "/body-spirit-shop",
+        "tag": "shop",
+        "img": "assets/images/options/body-spirit.png",
+        "title": "тяло & дух"
+    }, {
+        "url": "/medicine-shop",
+        "tag": "shop",
+        "img": "assets/images/options/medicine.png",
+        "title": "медицина"
+    }, {
+        "url": "/arts-shop",
+        "tag": "shop",
+        "img": "assets/images/options/arts.png",
+        "title": "изкуства"
+    }, {
+        "url": "/science-shop",
+        "tag": "shop",
+        "img": "assets/images/options/science.png",
+        "title": "наука"
+    }, {
+        "url": "/nature-shop",
+        "tag": "shop",
+        "img": "assets/images/options/nature.png",
+        "title": "природа"
+    }, {
+        "url": "/society-shop",
+        "tag": "shop",
+        "img": "assets/images/options/society.png",
+        "title": "общество"
+    }, {
+        "url": "/technologies-shop",
+        "tag": "shop",
+        "img": "assets/images/options/tech.png",
+        "title": "технологии"
+    }, {
+        "url": "/extreme-shop",
+        "tag": "shop",
+        "img": "assets/images/options/extreme.png",
+        "title": "екстремно"
+    }, {
+        "url": "/games-shop",
+        "tag": "shop",
+        "img": "assets/images/options/game.png",
+        "title": "игри"
+    }, {
+        "url": "/sport-shop",
+        "tag": "shop",
+        "img": "assets/images/options/win.png",
+        "title": "спорт"
+    }],
+    "articles": [{
+        "url": "#/washburn-guitar",
+        "tag": "art",
+        "img": "assets/images/shop/washburn-guitar.jpg",
+        "title": "Китара Washburn"
+    }, {
+        "url": "#/kafka-on-the-beach",
+        "tag": "art",
+        "img": "assets/images/shop/kafkaonthebeach.jpg",
+        "title": "\"Кафка на плажа\""
+    }]
+}

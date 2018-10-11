@@ -1,0 +1,13 @@
+# App resources
+app/config/constants.json
+# app/client/assets/
+app/client/css/
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*

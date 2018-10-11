@@ -1,0 +1,18 @@
+extends layout
+
+block aside
+    br
+    br
+    button.add-new NEW PUBLICATION
+    br
+
+block main-content
+    form#auth-form()
+        br
+        br
+        label(for='pass') Password:
+        br
+        input#pass-field(type='password')
+        br
+        br
+    button#auth-form-btn SUBMIT

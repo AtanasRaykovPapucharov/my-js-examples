@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+  include head
+
+  body
+    div#bird
+    img#logo(src="assets/images/logo.png", alt="logo", width="100px", height="auto")
+    include header
+    main
+      #main.wrapper
+        .content.container-flex
+          #content-block.content-info.item-flex-5 
+            block main-content
+          #aside.content-aside.item-flex-1
+            block aside
+    br
+    br
+    include footer
+    #logger
+
+    include scripts
+    div.notifier.animated.fadeInDown Please, Log in!

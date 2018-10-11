@@ -1,0 +1,19 @@
+extends layout
+
+block aside
+    br
+    a(href= "")#state-tag.navigation.animated.fadeIn= tag
+    br
+    br
+    a(href= "")#substate-tag.navigation.animated.fadeIn= "Всички"
+    br
+    br
+    button.add-new НОВА ПУБЛИКАЦИЯ
+
+block main-content
+    each val in data
+        .main-item-container
+            a.img-a(href= val.url)
+                img(src= val.img, alt="img", width="100%", height="220px")
+            a.animated.fadeInUp(href= val.url)
+                h1.animated.fadeIn= val.title

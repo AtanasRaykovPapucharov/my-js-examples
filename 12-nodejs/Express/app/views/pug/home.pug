@@ -1,0 +1,35 @@
+extends layout
+
+block aside
+    br
+    a.animated.fadeIn(href= "/home").navigation= 'НАЧАЛО'
+
+block main-content
+    h1 Не си губи време. Инвестирай в себе си.
+    each val in data
+        .main-item-container
+            a.img-a(href= val.url)
+                img(src= val.img, alt="img", width="100%", height="220px")
+            a.animated.fadeInUp(href= val.url)
+                h1.animated.fadeIn= val.title
+
+    //- form
+    //-     br
+    //-     br
+    //-     br
+    //-     br
+    //-     div.form-elem
+    //-         label(for="name-user") Име: 
+    //-         input.name-user(type="text") 
+    //-     br
+    //-     br
+    //-     div.form-elem Парола: 
+    //-         label(for="pass-user")
+    //-         input.pass-user(type="password") 
+    //-     br
+    //-     br
+    //-     div.form-elem
+    //-         label(for="submit-user")
+    //-         input.submit-user(type="submit", value="GO") 
+    //-     br
+    //-     br

@@ -1,0 +1,43 @@
+{
+  "name": "my-place",
+  "version": "1.0.0",
+  "description": "Bulgaria",
+  "main": "startup.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtanasRaykovPapucharov/myplace.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "AtanasRaykovPapucharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtanasRaykovPapucharov/myplace/issues"
+  },
+  "homepage": "https://github.com/AtanasRaykovPapucharov/myplace#readme",
+  "scripts": {
+    "sass": "gulp sass:watch",
+    "start": "node startup.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "helmet": "^3.12.0",
+    "mongojs": "^2.4.0",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.4.2",
+    "npm": "^6.4.0",
+    "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifycss": "^1.0.8"
+  }
+}
