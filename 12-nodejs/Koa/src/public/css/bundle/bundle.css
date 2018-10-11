@@ -1,0 +1,33 @@
+body h1 {
+  background-color: black;
+}
+
+body header {
+  position: relative;
+  color: blue;
+}
+.home div {
+  margin: 4px;
+  padding: 5px;
+}
+
+.home div h2 {
+  margin: 1px;
+}
+body h1 {
+  background-color: black;
+}
+
+body header {
+  position: relative;
+  color: blue;
+}
+
+.home div {
+  margin: 4px;
+  padding: 5px;
+}
+
+.home div h2 {
+  margin: 1px;
+}
