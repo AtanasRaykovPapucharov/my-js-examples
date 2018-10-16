@@ -1,4 +1,6 @@
-// 1. types - number, string, boolean, object, undefined
+// 1. types - primitive: number, string, boolean 
+//          - reference: object
+//                       undefined
 
 // 2. definition - var, let, const
 
