@@ -44,13 +44,20 @@ const action = {
     }
 }
 
-$('.wrapper header .nav ul *').on('click', (e) => {
-    e.preventDefault()
-    let actionType = e.target.className
-    let act = action[actionType]
+const target = $('.wrapper header .nav ul *')
+const eventName = 'click'
 
-    store.dispatch(act)
-})
+const clickEvent = fromEvent(target, eventName)
+
+clickEvent.subscribe(
+        e => {
+            e.preventDefault()
+            let actionType = e.target.className
+            let act = action[actionType]
+
+            store.dispatch(act)
+        }
+    )
 
 store.subscribe(() => {
     let type = store.getState().value

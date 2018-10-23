@@ -55,3 +55,6 @@ function test() {
 }
 
 test()
+
+let string = 'abcd'
+console.log(string.split('')) // [ 'a', 'b', 'c', 'd' ]
