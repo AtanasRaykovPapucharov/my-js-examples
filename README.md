@@ -4,7 +4,7 @@
 - types: number, string, boolean, object, undefined
 - def: var, let, const
 - scope: var (function scope), let, const (block scope)
-- var histing
+- var hoisting
 - if-else, switch-case
 
 2. Arrays and objects
@@ -16,7 +16,7 @@
 - forEach, map, filter, reduce
 
 4. Functions
-- declarations
+- declarations - hoisting
 - this, args
 - expressions
 - constructors
